@@ -1,0 +1,48 @@
+
+/* Add some basic styling to the form */
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(63, 133, 133);
+  }
+  
+  /* Style the input fields */
+  input[type="text"], input[type="email"], input[type="password"], input[type="date"] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Style the radio buttons */
+  input[type="radio"] {
+    margin: 0 5px;
+  }
+  
+  /* Style the checkbox */
+  input[type="checkbox"] {
+    margin: 0 5px;
+  }
+  
+  /* Style the submit button */
+  input[type="submit"] {
+    width: 50%;
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Add some hover effects to the submit button */
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
